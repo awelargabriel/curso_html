@@ -4,11 +4,34 @@ body
 {
 	background-color: rgb(255,255,255);
 	color: rgba(0,0,0,1);
+	background-color: #dddddd;
+}
+
+/*ordem do margin ou padding: up, right, down, left */
+
+div#interface{
+	width: 900px;
+	background-color: #ffffff;
+	margin: -20px auto 10px auto; /*configura a margim externa do objeto*/
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+	padding: 10px;  /*padding configura a margin interna do objeto*/
 }
 
 p{
 	text-align: justify;
 	text-indent:  50px;
+}
+
+header#cabecalho img#icone{
+	position: absolute;
+	left: 1080px;
+	top: 50px;  
+}
+
+header#cabecalho{
+	border-bottom:  1px #606060 solid;
+	height: 150px; 
+	background: url('../_imagens/glass-logo-peq.jpg') no-repeat 0px 90px;
 }
 
 /*Formatação de imagens com legenda */ 	
@@ -58,7 +81,7 @@ nav#menu ul{
 	text-transform: uppercase;
 	position: absolute;
 	top: -19px;
-	left: 300px;
+	left: 600px;
 } 
 
 nav#menu li{
